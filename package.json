@@ -1,9 +1,9 @@
 {
-    "name": "Neko-MD",
-    "version": "2.4.0",
-    "description": "Simle Bot WhatsApp with Baileys Multi Device",
-    "depecrated": false,
+    "name": "nekobot-md",
+    "version": "2.0.0",
+    "description": "Customizable WhatsApp Bot",
     "main": "index.js",
+    "type": "module",
     "directories": {
         "lib": "lib",
         "src": "src",
@@ -11,9 +11,8 @@
     },
     "scripts": {
         "start": "node index.js",
-        "mongo": "node . --db 'isi mongodb mu'",
         "test": "node test.js",
-        "test2": "nodemon index.js --server --autocleartmp"
+        "test2": "nodemon index.js"
     },
     "keywords": [
         "termux-whatsapp-bot",
@@ -21,24 +20,23 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "mybot-md",
-        "family-bot",
-        "family-md",
-        "enjela",
-        "shiraori-md",
-        "stikerin",
-        "wabot-aq"
+        "nekobot",
+        "nekobot-md",
+        "neko-bot-md",
+        "multi-device",
+        "MD",
+        "baileys-md"
     ],
-    "homepage": "https://github.com/fokusdotid/family-md",
+    "homepage": "https://github.com/g4tito/nekobot-md",
     "author": {
-        "name": "Fokus ID"
+        "name": "g4tito"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fokusdotid/family-md.git"
+        "url": "git+https://github.com/g4tito/nekobot-md.git"
     },
     "bugs": {
-        "url": "https://github.com/fokusdotid/family-md/issues"
+        "url": "https://github.com/g4tito/nekobot-md/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
@@ -85,8 +83,10 @@
         "translate-google-api": "^1.0.4",
         "url-regex": "^5.0.0",
         "url-regex-safe": "^2.1.0",
-        "wa-sticker-formatter": "^4.3.2",
         "yargs": "^17.2.1",
         "yt-search": "^2.10.2"
+    },
+    "optionalDependencies": {
+        "wa-sticker-formatter": "^4.3.2"
     }
 }
