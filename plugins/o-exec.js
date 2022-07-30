@@ -30,14 +30,17 @@ let handler = async (m, _2) => {
     m.exp = old
   }
 }
-handler.help = ['>', '>>']
+
+handler.help = ['>', '=>']
 handler.tags = ['advanced']
-handler.customPrefix = /^>?> /
+handler.customPrefix = /^=?> /
 handler.command = /(?:)/i
+
 handler.owner = true
 
 module.exports = handler
 
+// Otros
 class CustomArray extends Array {
   constructor(...args) {
     if (typeof args[0] == 'number') return super(Math.min(args[0], 10000))
