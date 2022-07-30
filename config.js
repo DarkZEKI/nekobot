@@ -38,8 +38,8 @@ global.APIKeys = { // APIKey Here
   'https://api.adiofficial.xyz': 'apikey lu'
 }
 
-global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
-global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
+global.wait = '*Espere un momento . . .*'
+global.eror = 'Ocurrió un error inesperado'
 global.Intervalmsg = 1800 //detik
 
 //========Url Template Buttons=========//
@@ -48,14 +48,14 @@ global.urlnya = "https://www.instagram.com/aguzfamilia"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 813-2017-0984'
+global.phn = '+51 940 617 554'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'
 global.salah = '_*Salah❌*_'
 global.dikit = "dikit lagi, semangat ya :')"
 
-global.multiplier = 100 // The higher, The harder levelup
+global.multiplier = 69 // The higher, The harder levelup
 
 // Sticker WM
 global.packname = data.namabot;
