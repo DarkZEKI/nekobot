@@ -97,12 +97,11 @@ if (opts['server']) require('./server')(global.conn, PORT)
 
 async function connectionUpdate(update) {
   const { connection, lastDisconnect } = update
-  if (connection == 'connecting') console.log(chalk.redBright('🕛 Mengaktifkan Bot, Harap tunggu sebentar...'))
+  if (connection == 'connecting') console.log(chalk.redBright('🕛 Conectando...'))
   if (connection == 'open') {
-      console.log(chalk.green('Connected✅'))
-      await conn.hehe("6281320170984@s.whatsapp.net", global.ftoli).catch(err => { return !0 })
+      console.log(chalk.green('✅️ Conectado'))
   }
-  if (connection == 'close') console.log(chalk.red('⏹️Koneksi berhenti dan mencoba menghubungkan kembali...'))
+  if (connection == 'close') console.log(chalk.red('⏹️Mengaktifkan Bot, Harap tunggu sebentar'))
   global.timestamp.connect = new Date
   if (lastDisconnect && lastDisconnect.error && lastDisconnect.error.output && lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut && conn.ws.readyState !== WebSocket.CONNECTING) {
     console.log(global.reloadHandler(true))
