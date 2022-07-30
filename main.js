@@ -252,6 +252,6 @@ async function _quickTest() {
 }
 
 _quickTest()
-  .then(() => conn.logger.info('Quick Test Done'))
+  .then(() => conn.logger.info('Prueba rápida realizada!'))
   .catch(console.error)
   
